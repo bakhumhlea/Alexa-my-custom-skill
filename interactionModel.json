@@ -1,0 +1,88 @@
+{
+  "intents": [
+      {
+          "name": "AMAZON.CancelIntent",
+          "slots": [],
+          "samples": []
+      },
+      {
+          "name": "AMAZON.HelpIntent",
+          "slots": [],
+          "samples": [
+              "rule"
+          ]
+      },
+      {
+          "name": "AMAZON.NoIntent",
+          "slots": [],
+          "samples": []
+      },
+      {
+          "name": "AMAZON.RepeatIntent",
+          "slots": [],
+          "samples": []
+      },
+      {
+          "name": "AMAZON.StartOverIntent",
+          "slots": [],
+          "samples": [
+              "new game"
+          ]
+      },
+      {
+          "name": "AMAZON.StopIntent",
+          "slots": [],
+          "samples": []
+      },
+      {
+          "name": "AMAZON.YesIntent",
+          "slots": [],
+          "samples": [
+              "random",
+              "random game",
+              "go",
+              "let's start",
+              "start game",
+              "start"
+          ]
+      },
+      {
+          "name": "NameItIntent",
+          "slots": [
+              {
+                  "name": "Answer",
+                  "type": "AMAZON.AT_CITY"
+              }
+          ],
+          "samples": [
+              "{Answer}",
+              "I guess {Answer}",
+              "{Answer} may be",
+              "{Answer} sure",
+              "{Answer} I guess"
+          ]
+      },
+      {
+          "name": "TopicIntent",
+          "slots": [],
+          "samples": [
+              "Topic"
+          ]
+      },
+      {
+          "name": "TopicsPickIntent",
+          "slots": [
+              {
+                  "name": "PickNum",
+                  "type": "AMAZON.NUMBER"
+              }
+          ],
+          "samples": [
+              "I choose {PickNum} ",
+              "I pick {PickNum}",
+              "{PickNum}"
+          ]
+      }
+  ],
+  "types": []
+}
